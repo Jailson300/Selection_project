@@ -1,4 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+
 nav{
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
