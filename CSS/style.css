@@ -1,17 +1,48 @@
 body{
     background-color: antiquewhite;
+    margin: 0;
 }
 
 nav{
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 nav a{
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     color: black;
 }
+
+nav a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.title{
+     background-color: red;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+font{
+   font-size: 4rem;
+   color : white;
+   padding: 10px;
+   margin: 10px;
+   padding-left: 20px;
+}
+
+.profile{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
 
