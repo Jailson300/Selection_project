@@ -78,3 +78,30 @@
     text-align: center;
 }
 
+
+.ads{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ads_1{
+    width: 55%;
+}
+
+.ads_1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.ads_2{
+    width: 35%;
+}
+
+.ads_2 img{
+  width: 100%;
+  height: 100%;
+}
