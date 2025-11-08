@@ -17,24 +17,60 @@
     align-items: center;
     gap: 20px;
     margin: 10px;
+    padding: 10px;
 }
 
 .services{
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: white;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 7px 5px;
+    border-radius: 10px;  
 }
 
 .services p,h3{
     margin: 0;
 }
 
-.service i{
+.services h3{
     font-size: 1.5rem;
+}
+
+.services p{
+    font-size: 1.2rem;
+}
+
+.service i{
+    font-size: 1.8rem;
     color: red;
+}
+
+.vertical{
+    border-left: 2px solid black;
+    height: 2rem;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 55px;
+}
+
+.category{
+    width: 22.5%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0;
+    padding: 12px;
+}
+
+.category img{
+    max-width: 90%;
+}
+
+.category h2{
+    text-align: center;
 }
 
