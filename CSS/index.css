@@ -67,7 +67,11 @@
 }
 
 .category img{
-    max-width: 90%;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+
+
 }
 
 .category h2{

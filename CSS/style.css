@@ -50,6 +50,10 @@ font{
     padding: 10px;
 }
 
+.profile i{
+    padding: 10px;
+}
+
 .product{
     display: flex;
     justify-content: space-evenly;
