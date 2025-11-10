@@ -59,19 +59,16 @@
 }
 
 .category{
-    width: 22.5%;
+    width: 23.5%;
     background-color: white;
     border: 1px solid black;
     margin: 0;
-    padding: 12px;
+   
 }
 
 .category img{
         width: 100%;
-        height: 250px;
         object-fit: cover;
-
-
 }
 
 .category h2{

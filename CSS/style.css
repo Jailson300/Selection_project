@@ -92,6 +92,40 @@ font{
     margin: 5px;
 }
 
+footer{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.foot a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.connect{
+    padding: 10px;
+    margin: 10px;
+}
+
+.connect a{
+    color: white;
+    padding: 10px;
+}
+
+footer h2{
+    color: white;
+    font-weight: bold;
+}
+
 
 
 
