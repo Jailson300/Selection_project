@@ -30,6 +30,7 @@ main h1{
     color: red;
 }
 
+
 .card1{
     border: 1px solid black;
     padding: 15px;
@@ -40,4 +41,33 @@ main h1{
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+@media screen and (max-width: 600px){
+
+   .card{
+    display: block;
+   }
+
+   .card img{
+    width: 100%;
+    height: 300px;
+   }   
+   
+   .section{
+    width: 90%;
+   }
+
+   .ad{
+    width: 100%;
+   }
+
+   .ad img{
+    width: 100%;
+    height: auto;
+   }
+
+   .commit{
+    display: block;
+   }
 }
